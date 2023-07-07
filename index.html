@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Quiz</title>
+  <link rel="stylesheet" href="Assets/style.css">
+</head>
+
+<body>
+  <h1 class="header">JavaScript Quiz</h1>
+
+  
+
+  <div id="quiz-container" class="cardt">
+    
+    <div id="timer-container" class="card">
+      <p>Time Remaining: <span id="timer"></span></p>
+    </div>
+    <h2 id="question"></h2>
+    <div id="choices" class="label">
+      <button class="choice"></button>
+      <button class="choice"></button>
+      <button class="choice"></button>
+      <button class="choice"></button>
+    </div>
+  </div>
+
+  <div class="card" id="result-container">
+    <div id="result" class="card"></div>
+    <form id="score-form">
+      <label for="initials">Enter Initials:</label>
+      <input type="text" id="initials" name="initials" maxlength="3" required>
+      <button type="submit" class="label">Submit</button>
+    </form>
+    <button id="try-again-button" style="display: none;" class="label">Try Again</button>
+  </div>
+
+  <div id="score-section" class="card">
+    <h2>High Scores</h2>
+    <ul id="score-list">
+    </ul>
+    <button id="start-button" class="label">Start Quiz</button>
+  </div>
+
+  <script src="Assets/script.js"></script>
+</body>
+
+</html>
+
+
+
