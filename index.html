@@ -10,7 +10,7 @@
 
 <body>
   <h1 class="header">JavaScript Quiz</h1>
-
+  
   
 
   <div id="quiz-container" class="cardt">
@@ -28,7 +28,11 @@
   </div>
 
   <div class="card" id="result-container">
-    <div id="result" class="card"></div>
+    
+    <div id="result" class="card">
+      <button id="start-button" class="label">Start Quiz</button>
+    </div>
+    
     <form id="score-form">
       <label for="initials">Enter Initials:</label>
       <input type="text" id="initials" name="initials" maxlength="3" required>
@@ -41,7 +45,7 @@
     <h2>High Scores</h2>
     <ul id="score-list">
     </ul>
-    <button id="start-button" class="label">Start Quiz</button>
+    
   </div>
 
   <script src="./Assets/script.js"></script>
